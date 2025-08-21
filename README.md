@@ -1,12 +1,14 @@
 # Smart Feedback Analyzer
 
-A full-stack application for analyzing customer feedback using NLP and visualizing insights.
+A full-stack application that uses Machine Learning to analyze customer feedback in real-time, providing sentiment analysis and topic extraction.
 
 ## Features
 
-- Submit text feedback through a clean, modern interface
-- Automatic sentiment analysis using HuggingFace Transformers
-- Topic extraction using spaCy NLP
+- Real-time feedback analysis using ML models
+- Sentiment Analysis using HuggingFace Transformers
+- Topic Extraction using spaCy
+- Interactive visualization of analytics
+- Docker containerization for easy deployment
 - Real-time analytics dashboard with charts and word clouds
 - PostgreSQL database for persistent storage
 - Containerized deployment with Docker
@@ -103,3 +105,5 @@ The application is containerized and can be deployed to AWS ECS or Kubernetes. C
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+=======
+>>>>>>> 9abb7fa3d467972793302b9749ad0f18a5297623
