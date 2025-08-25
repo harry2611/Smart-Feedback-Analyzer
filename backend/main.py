@@ -20,7 +20,7 @@ except Exception as e:
     logger.error(f"Error creating database tables: {str(e)}")
     raise
 
-app = FastAPI(title="Smart Feedback Analyzer API", root_path="/api")
+app = FastAPI(title="Smart Feedback Analyzer API")
 
 # CORS middleware configuration
 app.add_middleware(
